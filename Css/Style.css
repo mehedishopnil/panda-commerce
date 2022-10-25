@@ -1,0 +1,23 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.orange-bg{
+    background-color: #FEEAE9;
+    padding: 6%;
+}
+.carousel-control-prev {
+    left: 0;
+    background: no-repeat;
+    background: none;
+    border: none;
+}
+.carousel-control-next {
+    right: 0;
+    background: none;
+    border: none;
+}
