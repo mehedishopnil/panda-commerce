@@ -1,3 +1,31 @@
+body {
+    font-family: poppins;
+}
+
+/* Header Start */
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3f3e3e;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.btn-field {
+    border-color: #d1d1d1;
+    border-radius: 5px;
+    border-width: 0.3px;
+    width: 400px;
+    height: 30px;
+}
+
+::placeholder { 
+    color: rgb(196, 196, 196);
+    opacity: 1; 
+  }
 
 .navbar-light .navbar-nav .nav-link {
     color: #707070;
@@ -6,26 +34,38 @@
     font-family: poppins;
 }
 
-.orange-bg{
+.main-menu {
+    padding-left: 125px;
+}
+/* Header End */
+
+
+/* Curser Start */
+
+.orange-bg {
     background-color: #FEEAE9;
     padding: 6%;
     border-radius: 10px;
 }
+
 .carousel-control-prev {
     left: 0;
     background: no-repeat;
     background: none;
     border: none;
 }
+
 .carousel-control-next {
     right: 0;
     background: none;
     border: none;
 }
-.content-slide{
+
+.content-slide {
     position: absolute;
 }
-.carrusol{
+
+.carrusol {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -47,9 +87,10 @@
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border: none;
-  }
-  
-  .buy-now-button:hover {
+
+}
+
+.buy-now-button:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -57,9 +98,10 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
-  }
+}
 
-  #carouselExampleControls .carousel-control-next, #carouselExampleControls .carousel-control-prev {
+#carouselExampleControls .carousel-control-next,
+#carouselExampleControls .carousel-control-prev {
     position: absolute;
     top: 50%;
     width: 15%;
@@ -67,77 +109,138 @@
     height: 30px;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
 
     filter: drop-shadow(2px 2px 10px rgb(58, 58, 58));
 }
 
-.curosal_prise{
-    color:#FF136F ;
-
+.curosal_prise {
+    color: #FF136F;
 }
-.col-md-7{
+
+/* Corsur End */
+
+
+.col-md-7 {
     padding-right: 15%;
 }
-.curosal_pragraph{
-    font-weight: lighter;
+
+.curosal_pragraph {
+    font-weight: 300;
     font-size: 18px;
     line-height: 32px;
+    color: #818181;
 
 }
 
-.cattegory-row{
-    
-   margin: 20px auto;
+.cattegory-row {
+
+    margin: 20px auto;
 }
 
-.watch{
+.watch {
     background-image: linear-gradient(#FF9C35, #FFD019);
     color: white;
-    
-    
-}
-.bag{
-    background-image: linear-gradient(#FF589B, #FF136F);
-    color: white;
-    
-}
-.shoes{
-    background-image: linear-gradient(#4289FF, #3F07F8);
-    color: white;
-    
+
+
 }
 
-.watch, .bag, .shoes {
+.bag {
+    background-image: linear-gradient(#FF589B, #FF136F);
+    color: white;
+
+}
+
+.shoes {
+    background-image: linear-gradient(#4289FF, #3F07F8);
+    color: white;
+
+}
+
+.watch,
+.bag,
+.shoes {
     padding: 10px 30px;
     border-radius: 10px;
 }
 
-.cattegory img{
+.cattegory img {
     width: 100px;
 }
 
-.shoes1{
-    margin:100px auto ;
+.shoes-price,
+.bag-price {
+    margin-bottom: 20px;
+
+}
+
+.product-container {
+    margin: 100px auto;
+}
+
+.shoes1 {
+
     border: none;
-    
+
     background-color: white;
     box-shadow: 0px 0px 25px rgb(230, 230, 230);
     border-radius: 10px;
     text-align: center;
     height: 10%;
-    
+
 }
 
-.btn-shoes{
+.btn-shoes {
     background-color: black;
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
     color: white;
     font-size: 20px;
-    
+
 }
-.card-body{
-    height: 50px;
+
+.card-body {
+    height: 250px;
+}
+
+.bagpack-container {
+    margin-top: 100px;
+}
+
+.col-md-6 a {
+    color: #FF136F;
+    text-decoration: none;
+    text-align: justify;
+    padding-left: 90%;
+}
+
+.Footer {
+    background-color: #FEEAE9;
+    height: 250px;
+    margin: 60px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+}
+
+.submit-btn {
+    color: #ffffff;
+    border: none;
+    background-image: linear-gradient(#FF589B, #FF136F);
+    padding: 8px 10px;
+}
+
+.submit-btn:hover {
+    background-color: #ff58d5;
+    color: #3F07F8;
+}
+
+.btn-find {
+    border-color: #d1d1d1;
+    border-radius: 5px;
+    border-width: 0.3px;
+    width: 300px;
+    height: 40px;
 }
